@@ -1,0 +1,15 @@
+{
+  "Links": {
+    "IfLogin": [{ "path": "/", "Name": "الصفحة الرئيسية" }],
+    "IfNotLogin": [
+      { "path": "/SignIn", "Name": "تسجيل الدخول" },
+      { "path": "/SignUp", "Name": "انشاء حساب" }
+    ]
+  },
+  "PageSignIn": {
+    "Title": "تسجيل الدخول"
+  },
+  "PageSignUp": {
+    "Title": "انشاء حساب جديد"
+  }
+}

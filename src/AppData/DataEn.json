@@ -1,0 +1,15 @@
+{
+  "Links": {
+    "IfLogin": [{ "path": "/", "Name": "Home" }],
+    "IfNotLogin": [
+      { "path": "/SignIn", "Name": "Sign In" },
+      { "path": "/SignUp", "Name": "Sign Up" }
+    ]
+  },
+  "PageSignIn": {
+    "Title": "Sign In"
+  },
+  "PageSignUp": {
+    "Title": "Sign Up"
+  }
+}
