@@ -1,0 +1,61 @@
+.Form {
+  width: 400px;
+  height: auto;
+  background-color: #161515;
+  padding: 40px 30px 20px 30px;
+  border-radius: 5px;
+  background-color: #ffffff08;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+.Form .Title {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.Form .Title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.Form .input-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.Form .input-box input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff0d;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 1;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+}
+/* .Form .input-box input::in {
+  {
+internal-autofill-selected
+} */
+.Form .input-box button.BtnForm {
+  width: 100%;
+  font-size: 20px;
+}
+.Form .input-box:has(button.BtnForm) {
+  margin-top: 20px;
+}

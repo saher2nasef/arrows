@@ -2,7 +2,7 @@ import En from "./DataEn.json";
 let InitialValue = {
   IsLoggin: false,
   UserData: null,
-  Theme: "Ligth",
+  Theme: "Dark",
   LanguageData: En,
   AppName: "App Name",
 };

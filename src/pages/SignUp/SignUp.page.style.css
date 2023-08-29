@@ -1,0 +1,14 @@
+#SignUp {
+  min-height: calc(100vh - 56px);
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/Images/SignInBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
