@@ -1,12 +1,16 @@
 /* eslint-disable no-unused-vars */
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
+import { IsLogginFun } from "../services/auth/Auth.service";
+
 import InitialValue from "./InitialValue";
 
 const MainContext = createContext();
-
 const AppContext = ({ children }) => {
   let [Data, SetData] = useState(InitialValue);
   let [AnyData, SetAnyData] = useState("AnyData");
+  useEffect(() => {
+    SetLogginUser(IsLogginFun());
+  }, []);
   let SetLogginUser = (Status) => {
     Data.IsLoggin = Status;
     SetData(Data);

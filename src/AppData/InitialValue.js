@@ -4,6 +4,6 @@ let InitialValue = {
   UserData: null,
   Theme: "Dark",
   LanguageData: En,
-  AppName: "App Name",
+  AppName: "App",
 };
 export default InitialValue;

@@ -12,7 +12,7 @@ const Home = () => {
       Navigate("/SignIn");
     }
   }, [IsLoggin]);
-  return <div>Home Page</div>;
+  return <section id="HomePage">Home Page</section>;
 };
 
 export default Home;
