@@ -1,6 +1,6 @@
 # Getting Started with Arrows App
 
-This project was bootstrapped with [Arrows App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Arrows App](https://github.com/saher2nasef/arrows).
 
 ## Available Scripts
 
